@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Document</title>
+
+	<link rel="stylesheet" href="style/main.css">
+
+	<script src="libs/gsap/gsap.min.js" defer></script>
+	<script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+	<script src="libs/gsap/ScrollSmoother.min.js" defer></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+	<script src="java/app.js" defer></script>
+
+</head>
+<body>
+
+	<div class="wrapper">
+		<div class="content">
+
+			<header class="main-header">
+				<div class="layers">
+					<div class="layer__header">
+						<div class="layers__caption">Нори</div>
+						<div class="layers__title">Определяйте болезни растений, получайте рекомендации 
+                            по уходу и следите за ростом — всё в одном приложении.</div>
+					</div>
+					<div class="layer layers__base" style="background-image: url(Image/fon1.png);"></div>
+					<div class="layer layers__middle" style="background-image: url(Image/second1.png);"></div>
+					<div class="layer layers__front" style="background-image: url(Image/first1.png);"></div>
+				</div>
+			</header>
+		
+			<article id="about" class="main-article" style="background-image: url(Image/fon2.png);">
+				<div class="main-article__content">
+					<h2 class="main-article__header">О нас</h2>
+					<p class="main-article__paragraph">Мы верим, что забота о растениях должна быть простой, приятной 
+и доступной каждому.</p>
+                    <p class="main-article__paragraph">Именно поэтому мы создали приложение, которое помогает лучше понимать растения, вовремя замечать проблемы и создавать идеальные условия для их роста. С помощью умных рекомендаций, напоминаний и видео уроков уход за растениями становится проще и приятнее каждый день.
+                                                       А ещё рядом с вами всегда находится наша маленькая фея-помощница. Она всегда готова помочь советом.</p>
+                  
+				</div>
+				
+			</article>
+        <section id="team" class="team-cards">
+
+    <h2 class="team-title">Волшебная команда</h2>
+    <div class="cards">
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+
+                <div class="flip-card-front">
+                    <img src="Image/image_2026-06-26_07-15-48.png" alt="">
+                   <div class="card-info">
+                     <h3>Александра</h3>
+                   </div>
+                </div>
+
+                <div class="flip-card-back back1">
+                    
+                    <p>Любимый цветок</p>
+                    <h3>Ликорис</h3>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+
+                <div class="flip-card-front">
+                    <img src="Image/Renata.png" alt="">
+                    <div class="card-info">
+                     <h3>Рената</h3>
+
+                   </div>
+                </div>
+
+                <div class="flip-card-back back2">
+                    <p>Любимый цветок</p>
+                    <h3>Жасмин</h3>
+                    
+                </div>
+
+            </div>
+        </div>
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+
+                <div class="flip-card-front">
+                    <img src="Image/5332330708808178347 (1).jpg" alt="">
+                 <div class="card-info">
+                     <h3>Ирина</h3>
+                   </div>
+                </div>
+
+                <div class="flip-card-back back3">
+                    
+                    <p>Любимый цветок</p>
+                    <h3>Ландыш</h3>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</section>
+<section id="app" class="features">
+
+    <div class="features-header">
+        <h2>Что умеет приложение</h2>
+        <p>
+            Всё необходимое для заботы о ваших растениях
+            собрано в одном приложении.
+        </p>
+    </div>
+
+    <div class="features-grid">
+
+        <div class="feature-card">
+            <img src="Image\think.png" alt="">
+            <h3>Сканирование растений</h3>
+            <p>
+                Узнавайте название растения и получайте рекомендации по уходу
+                с помощью камеры телефона.
+            </p>
+        </div>
+
+        <div class="feature-card">
+            <img src="Image/Stati.png" alt="">
+            <h3>Статьи</h3>
+            <p>
+                Читайте полезные материалы о выращивании,
+                болезнях растений и правильном уходе.
+            </p>
+        </div>
+
+        <div class="feature-card">
+            <img src="Image/map.png" alt="">
+            <h3>Карта зелёности</h3>
+            <p>
+                Находите парки, скверы и самые зелёные места
+                рядом с вами.
+            </p>
+        </div>
+
+        <div class="feature-card">
+            <img src="Image/Moon1.png" alt="">
+            <h3>Лунный календарь</h3>
+            <p>
+                Планируйте посадку, пересадку и уход за
+                растениями по фазам Луны.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+<section id="download" class="download-app">
+    <div class="download-container">
+        
+
+        <div class="download-content">
+            
+          
+            <div class="download-logo">
+                <h2>НОРИ</h2>
+            </div>
+            
+       
+            <h3 class="download-subtitle">Ваша палочка-выручалочка<br>в уходе за растениями</h3>
+            
+    
+            <p class="download-text">
+                Скачайте приложение и позвольте<br>
+                вашим растениям получать заботу<br>
+                каждый день.
+            </p>
+            
+            <p class="download-text">
+                Умные напоминания, советы по уходу<br>
+                и помощь в выращивании – всегда<br>
+                под рукой.
+            </p>
+            
+  
+            <a href="#" class="download-btn">Скачать</a>
+            
+        </div>
+        
+  
+     <div class="download-pic">
+    <div class="pic-wrapper">
+        
+        <img src="Image/Скан-раст-тел-разв.png" class="pic pic-front" alt="App screen 1">
+        <img src="Image/Главная.jpg" class="pic pic-back" alt="App screen 2">
+
+    </div>
+</div>
+        
+    </div>
+</section>
+
+<section  id="reviews" class="reviews">
+
+    <h2 class="reviews-title">Что чувствуют феечки</h2>
+
+    <div class="reviews-grid">
+
+        <div class="review review-big">
+            <div class="review-header">
+                <img src="Image/user1.jpg" alt="">
+                <div>
+                    <h3>Люк</h3>
+                    <span>Дизайнер</span>
+                </div>
+            </div>
+            <p>
+                Очень полезное приложение для любителей цветов. Особенно понравился сканер растений — быстро определяет название цветка и дает рекомендации по уходу. Также часто пользуюсь лунным календарем для пересадки и полива. Удобный и понятный интерфейс.
+            </p>
+        </div>
+
+        <div class="review">
+            <div class="review-header">
+                <img src="Image/user2.jpg" alt="">
+                <div>
+                    <h3>Ли Джонсон</h3>
+                    <span>Маркетолог</span>
+                </div>
+            </div>
+            <p>
+                Лучшее приложение, которое я нашла для ухода за комнатными растениями. Сканер болезней помог определить проблему у моей орхидеи буквально за минуту.
+            </p>
+        </div>
+
+        <div class="review review-big">
+            <div class="review-header">
+                <img src="Image/user3.jpg" alt="">
+                <div>
+                    <h3>Белла</h3>
+                    <span>Предприниматель</span>
+                </div>
+            </div>
+            <p>
+                Пользуюсь приложением уже несколько месяцев. Нравится, что можно определить не только растение, но и насекомых-вредителей.
+            </p>
+        </div>
+
+        <div class="review review-big">
+            <div class="review-header">
+                <img src="Image/user4.jpg" alt="">
+                <div>
+                    <h3>Энни</h3>
+                    <span>Разработчик</span>
+                </div>
+            </div>
+            <p>
+                Хорошее приложение для начинающих цветоводов. Лунный календарь напоминает о благоприятных днях для посадки.
+            </p>
+        </div>
+
+        <div class="review">
+            <div class="review-header">
+                <img src="Image/user5.jpg" alt="">
+                <div>
+                    <h3>Мартин</h3>
+                    <span>Менеджер</span>
+                </div>
+            </div>
+            <p>
+                 Отличный помощник для дома и сада. Благодаря сканеру болезней удалось вовремя спасти розы от грибкового заболевания.
+            </p>
+        </div>
+
+        <div class="review review-big">
+            <div class="review-header">
+                <img src="Image/user6.jpg" alt="">
+                <div>
+                    <h3>Алекс</h3>
+                    <span>Фрилансер</span>
+                </div>
+            </div>
+            <p>
+                Очень понравилась функция определения насекомых. Теперь легко понимаю, какие вредители появились на растениях и как с ними бороться.
+            </p>
+        </div>
+    <div class="review review-big">
+            <div class="review-header">
+                <img src="Image/user7.jpg" alt="">
+                <div>
+                    <h3>Алекс</h3>
+                    <span>Фрилансер</span>
+                </div>
+            </div>
+            <p>
+                Замечательное приложение! В одном месте есть все необходимое: определение растений, диагностика болезней, распознавание насекомых, лунный календарь и карта зелености.
+        </div>
+    </div>
+
+</section>
+
+<div class=" lastpic">
+<img src="Image\паврпв.gif" alt="">
+</div>
+
+<footer class="footer">
+    <div class="footer-container">
+        
+        <div class="footer-top">
+            <div class="footer-logo-center">
+                <h2>Нори</h2>
+                <p>Вдохните жизнь в каждый лист</p>
+            </div>
+        </div>
+        
+
+        <div class="footer-middle">
+            
+
+            <div class="footer-contacts">
+                <div class="contact-item">
+                    <a href="tel:+7917424756">+7 917 424-75-56</a>
+                </div>
+                <div class="contact-item">
+                    <a href="mailto:Tosseofic@gmail.com">Tosseofic@gmail.com</a>
+                </div>
+            </div>
+            
+  
+            <div class="footer-nav-center">
+                <ul>
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#app">О приложении</a></li>
+                    <li><a href="#team">Команда</a></li>
+                    <li><a href="#download">Загрузка</a></li>
+                    <li><a href="#reviews">Отзывы</a></li>
+                </ul>
+            </div>
+            
+ 
+            <div class="footer-social">
+                <span class="social-link"> <img src="Image/you.svg" alt="" class="hightpic">  </span> 
+                <span class="social-link"> <img src="Image/vk.svg" alt="" class="hightpic">  </span> 
+                <span class="social-link"> <img src="Image/tg.svg" alt="" class="hightpic">  </span> 
+            </div>
+            
+        </div>
+        
+    </div>
+</footer>
+		</div>
+	</div>
+
+</body>
+</html>
